@@ -1,0 +1,11 @@
+###
+POST http://10.33.0.66:3002/login
+Content-Type: application/json
+
+{
+  "username": "user1"
+}
+
+###
+GET http://fauques.freeboxos.fr:3000/matches
+Content-Type: application/json
